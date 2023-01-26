@@ -22,7 +22,7 @@ const WebcamCapture = () => {
         width={"100%"}
         videoConstraints={videoConstraints}
       />
-      <button onClick={capture}>Capture photo</button>
+      {/* <button onClick={capture}>Capture photo</button> */}
     </>
   )
 }
